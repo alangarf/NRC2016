@@ -1,0 +1,87 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Zilog
+LIBS:microchip_pic18mcu
+LIBS:6850
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3750 1350 900  2600
+U 577A9E9B
+F0 "cpu" 60
+F1 "cpu.sch" 60
+F2 "A0" O L 3750 1450 60 
+F3 "A1" O L 3750 1550 60 
+F4 "A2" O L 3750 1650 60 
+F5 "A3" O L 3750 1750 60 
+F6 "A4" O L 3750 1850 60 
+F7 "A5" O L 3750 1950 60 
+F8 "A6" O L 3750 2050 60 
+F9 "A7" O L 3750 2150 60 
+F10 "A8" O L 3750 2250 60 
+F11 "A9" O L 3750 2350 60 
+F12 "A10" O L 3750 2450 60 
+F13 "A11" O L 3750 2550 60 
+F14 "A12" O L 3750 2650 60 
+F15 "A13" O L 3750 2750 60 
+F16 "A14" O L 3750 2850 60 
+F17 "A15" O L 3750 2950 60 
+F18 "D0" B L 3750 3150 60 
+F19 "D1" B L 3750 3250 60 
+F20 "D2" B L 3750 3350 60 
+F21 "D3" B L 3750 3450 60 
+F22 "D4" B L 3750 3550 60 
+F23 "D5" B L 3750 3650 60 
+F24 "D6" B L 3750 3750 60 
+F25 "D7" B L 3750 3850 60 
+F26 "~INT" I R 4650 1650 60 
+F27 "~RD" T R 4650 1950 60 
+F28 "~WR" T R 4650 2050 60 
+F29 "~M1" T R 4650 2350 60 
+F30 "~BUSACK" O R 4650 2650 60 
+F31 "~BUSRQ" I R 4650 2800 60 
+F32 "~WAIT" I R 4650 1500 60 
+F33 "~MREQ" O R 4650 3050 60 
+F34 "~IORQ" O R 4650 3200 60 
+$EndSheet
+$EndSCHEMATC
