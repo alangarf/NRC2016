@@ -31,11 +31,12 @@ LIBS:valves
 LIBS:Zilog
 LIBS:microchip_pic18mcu
 LIBS:6850
+LIBS:z80-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
