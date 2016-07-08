@@ -582,7 +582,7 @@ Connection ~ 6900 1900
 Wire Wire Line
 	7100 2350 7100 2450
 Wire Wire Line
-	7100 2450 7550 2450
+	6300 2450 7550 2450
 Connection ~ 6700 1900
 Text HLabel 6300 2750 0    60   Input ~ 0
 ~WAIT
@@ -1131,4 +1131,7 @@ $EndComp
 Wire Wire Line
 	8550 4650 8250 4650
 Connection ~ 8250 4650
+Connection ~ 7100 2450
+Text HLabel 6300 2450 0    60   Input ~ 0
+~NMI
 $EndSCHEMATC
