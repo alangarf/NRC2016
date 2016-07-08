@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -46,153 +46,214 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1500 1500 0    60   Input ~ 0
+Text HLabel 3550 2150 0    60   Input ~ 0
 A0
-Text HLabel 1500 1600 0    60   Input ~ 0
+Text HLabel 3550 2250 0    60   Input ~ 0
 A1
-Text HLabel 1500 1700 0    60   Input ~ 0
+Text HLabel 3550 2350 0    60   Input ~ 0
 A2
-Text HLabel 1500 1800 0    60   Input ~ 0
+Text HLabel 3550 2450 0    60   Input ~ 0
 A3
-Text HLabel 1500 1900 0    60   Input ~ 0
+Text HLabel 3550 2550 0    60   Input ~ 0
 A4
-Text HLabel 1500 2000 0    60   Input ~ 0
+Text HLabel 3550 2650 0    60   Input ~ 0
 A5
-Text HLabel 1500 2100 0    60   Input ~ 0
+Text HLabel 3550 2750 0    60   Input ~ 0
 A6
-Text HLabel 1500 2200 0    60   Input ~ 0
+Text HLabel 3550 2850 0    60   Input ~ 0
 A7
-Text HLabel 1500 2300 0    60   Input ~ 0
+Text HLabel 3550 2950 0    60   Input ~ 0
 A8
-Text HLabel 1500 2400 0    60   Input ~ 0
+Text HLabel 3550 3050 0    60   Input ~ 0
 A9
-Text HLabel 1500 2500 0    60   Input ~ 0
+Text HLabel 3550 3150 0    60   Input ~ 0
 A10
-Text HLabel 1500 2600 0    60   Input ~ 0
+Text HLabel 3550 3250 0    60   Input ~ 0
 A11
-Text HLabel 1500 2700 0    60   Input ~ 0
+Text HLabel 3550 3350 0    60   Input ~ 0
 A12
-Text HLabel 1500 2800 0    60   Input ~ 0
+Text HLabel 3550 3450 0    60   Input ~ 0
 A13
-Text HLabel 1500 2900 0    60   Input ~ 0
+Text HLabel 3550 3550 0    60   Input ~ 0
 A14
-Text HLabel 1500 3000 0    60   Input ~ 0
+Text HLabel 3550 3650 0    60   Input ~ 0
 A15
-Text HLabel 1500 4100 0    60   3State ~ 0
+Text HLabel 3550 4650 0    60   3State ~ 0
 D0
-Text HLabel 1500 4200 0    60   3State ~ 0
+Text HLabel 3550 4750 0    60   3State ~ 0
 D1
-Text HLabel 1500 4300 0    60   3State ~ 0
+Text HLabel 3550 4850 0    60   3State ~ 0
 D2
-Text HLabel 1500 4400 0    60   3State ~ 0
+Text HLabel 3550 4950 0    60   3State ~ 0
 D3
-Text HLabel 1500 4500 0    60   3State ~ 0
+Text HLabel 3550 5050 0    60   3State ~ 0
 D4
-Text HLabel 1500 4600 0    60   3State ~ 0
+Text HLabel 3550 5150 0    60   3State ~ 0
 D5
-Text HLabel 1500 4700 0    60   3State ~ 0
+Text HLabel 3550 5250 0    60   3State ~ 0
 D6
-Text HLabel 1500 4800 0    60   3State ~ 0
+Text HLabel 3550 5350 0    60   3State ~ 0
 D7
-Text HLabel 1500 3100 0    60   Output ~ 0
+Text HLabel 3550 3750 0    60   Output ~ 0
 ~WAIT
-Text HLabel 1500 3200 0    60   Output ~ 0
+Text HLabel 3550 3850 0    60   Output ~ 0
 ~INT
-Text HLabel 1500 3300 0    60   3State ~ 0
+Text HLabel 3550 3950 0    60   3State ~ 0
 ~RD
-Text HLabel 1500 3400 0    60   3State ~ 0
+Text HLabel 3550 4050 0    60   3State ~ 0
 ~WR
-Text HLabel 1500 3500 0    60   3State ~ 0
+Text HLabel 3550 4150 0    60   3State ~ 0
 ~M1
-Text HLabel 1500 3600 0    60   Input ~ 0
+Text HLabel 3550 4250 0    60   Input ~ 0
 ~BUSACK
-Text HLabel 1500 3700 0    60   Output ~ 0
+Text HLabel 3550 4350 0    60   Output ~ 0
 ~BUSRQ
-Text HLabel 1500 3800 0    60   Input ~ 0
+Text HLabel 3550 4450 0    60   Input ~ 0
 ~MREQ
-Text HLabel 1500 3900 0    60   Input ~ 0
+Text HLabel 3550 4550 0    60   Input ~ 0
 ~IORQ
 $Comp
 L CONN_01X40 P1
 U 1 1 577CEB68
-P 2050 3450
+P 4100 4100
 AR Path="/577BB11C/577CEB68" Ref="P1"  Part="1" 
 AR Path="/577C4BD1/577CEB68" Ref="P2"  Part="1" 
 AR Path="/577F17CE/577F1897/577CEB68" Ref="P1"  Part="1" 
 AR Path="/577F17CE/577F7EB3/577CEB68" Ref="P2"  Part="1" 
 AR Path="/577F17CE/577F8AF5/577CEB68" Ref="P3"  Part="1" 
 AR Path="/577F17CE/577F9440/577CEB68" Ref="P4"  Part="1" 
-F 0 "P4" H 2050 5500 50  0000 C CNN
-F 1 "CONN_01X40" V 2150 3450 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x40" H 2050 3450 50  0001 C CNN
-F 3 "" H 2050 3450 50  0000 C CNN
-	1    2050 3450
+F 0 "P4" H 4100 6150 50  0000 C CNN
+F 1 "CONN_01X40" V 4200 4100 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x40" H 4100 4100 50  0001 C CNN
+F 3 "" H 4100 4100 50  0000 C CNN
+	1    4100 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 1500 1850 1500
+	3550 2150 3900 2150
 Wire Wire Line
-	1500 1600 1850 1600
+	3550 2250 3900 2250
 Wire Wire Line
-	1500 1700 1850 1700
+	3550 2350 3900 2350
 Wire Wire Line
-	1500 1800 1850 1800
+	3550 2450 3900 2450
 Wire Wire Line
-	1500 1900 1850 1900
+	3550 2550 3900 2550
 Wire Wire Line
-	1500 2000 1850 2000
+	3550 2650 3900 2650
 Wire Wire Line
-	1500 2100 1850 2100
+	3550 2750 3900 2750
 Wire Wire Line
-	1500 2200 1850 2200
+	3550 2850 3900 2850
 Wire Wire Line
-	1500 2300 1850 2300
+	3550 2950 3900 2950
 Wire Wire Line
-	1500 2400 1850 2400
+	3550 3050 3900 3050
 Wire Wire Line
-	1500 2500 1850 2500
+	3550 3150 3900 3150
 Wire Wire Line
-	1500 2600 1850 2600
+	3550 3250 3900 3250
 Wire Wire Line
-	1500 2700 1850 2700
+	3550 3350 3900 3350
 Wire Wire Line
-	1500 2800 1850 2800
+	3550 3450 3900 3450
 Wire Wire Line
-	1500 2900 1850 2900
+	3550 3550 3900 3550
 Wire Wire Line
-	1500 3000 1850 3000
+	3550 3650 3900 3650
 Wire Wire Line
-	1500 4100 1850 4100
+	3550 4650 3900 4650
 Wire Wire Line
-	1500 4200 1850 4200
+	3550 4750 3900 4750
 Wire Wire Line
-	1500 4300 1850 4300
+	3550 4850 3900 4850
 Wire Wire Line
-	1500 4400 1850 4400
+	3550 4950 3900 4950
 Wire Wire Line
-	1500 4500 1850 4500
+	3550 5050 3900 5050
 Wire Wire Line
-	1500 4600 1850 4600
+	3550 5150 3900 5150
 Wire Wire Line
-	1500 4700 1850 4700
+	3550 5250 3900 5250
 Wire Wire Line
-	1500 4800 1850 4800
+	3550 5350 3900 5350
 Wire Wire Line
-	1500 3100 1850 3100
+	3550 3750 3900 3750
 Wire Wire Line
-	1500 3200 1850 3200
+	3550 3850 3900 3850
 Wire Wire Line
-	1500 3300 1850 3300
+	3550 3950 3900 3950
 Wire Wire Line
-	1500 3400 1850 3400
+	3550 4050 3900 4050
 Wire Wire Line
-	1500 3500 1850 3500
+	3550 4150 3900 4150
 Wire Wire Line
-	1500 3600 1850 3600
+	3550 4250 3900 4250
 Wire Wire Line
-	1500 3700 1850 3700
+	3550 4350 3900 4350
 Wire Wire Line
-	1500 3800 1850 3800
+	3550 4450 3900 4450
 Wire Wire Line
-	1500 3900 1850 3900
+	3550 4550 3900 4550
+Text HLabel 3550 1500 0    60   Input ~ 0
+~CLK
+$Comp
+L CONN_01X04 P5
+U 1 1 578144F7
+P 4100 1550
+AR Path="/577F17CE/577F1897/578144F7" Ref="P5"  Part="1" 
+AR Path="/577F17CE/577F7EB3/578144F7" Ref="P6"  Part="1" 
+AR Path="/577F17CE/577F8AF5/578144F7" Ref="P7"  Part="1" 
+AR Path="/577F17CE/577F9440/578144F7" Ref="P8"  Part="1" 
+F 0 "P8" H 4100 1800 50  0000 C CNN
+F 1 "CONN_01X04" V 4200 1550 50  0000 C CNN
+F 2 "" H 4100 1550 50  0000 C CNN
+F 3 "" H 4100 1550 50  0000 C CNN
+	1    4100 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1400 3550 1400
+Wire Wire Line
+	3550 1400 3550 1250
+$Comp
+L VCC #PWR017
+U 1 1 5781454A
+P 3550 1250
+AR Path="/577F17CE/577F1897/5781454A" Ref="#PWR017"  Part="1" 
+AR Path="/577F17CE/577F7EB3/5781454A" Ref="#PWR019"  Part="1" 
+AR Path="/577F17CE/577F8AF5/5781454A" Ref="#PWR021"  Part="1" 
+AR Path="/577F17CE/577F9440/5781454A" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 3550 1100 50  0001 C CNN
+F 1 "VCC" H 3550 1400 50  0000 C CNN
+F 2 "" H 3550 1250 50  0000 C CNN
+F 3 "" H 3550 1250 50  0000 C CNN
+	1    3550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1700 3550 1700
+Wire Wire Line
+	3550 1700 3550 1850
+$Comp
+L GND #PWR018
+U 1 1 5781458A
+P 3550 1850
+AR Path="/577F17CE/577F1897/5781458A" Ref="#PWR018"  Part="1" 
+AR Path="/577F17CE/577F7EB3/5781458A" Ref="#PWR020"  Part="1" 
+AR Path="/577F17CE/577F8AF5/5781458A" Ref="#PWR022"  Part="1" 
+AR Path="/577F17CE/577F9440/5781458A" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 3550 1600 50  0001 C CNN
+F 1 "GND" H 3550 1700 50  0000 C CNN
+F 2 "" H 3550 1850 50  0000 C CNN
+F 3 "" H 3550 1850 50  0000 C CNN
+	1    3550 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1500 3900 1500
+Wire Wire Line
+	3900 1600 3550 1600
+Text HLabel 3550 1600 0    60   Input ~ 0
+~RESET
 $EndSCHEMATC

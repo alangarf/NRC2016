@@ -49,7 +49,7 @@ $EndDescr
 $Sheet
 S 3600 1400 900  2600
 U 577A9E9B
-F0 "cpu" 60
+F0 "CPU" 60
 F1 "cpu.sch" 60
 F2 "A0" O L 3600 1500 60 
 F3 "A1" O L 3600 1600 60 
@@ -84,6 +84,8 @@ F31 "~BUSRQ" I R 4500 2850 60
 F32 "~WAIT" I R 4500 1550 60 
 F33 "~MREQ" O R 4500 3100 60 
 F34 "~IORQ" O R 4500 3250 60 
+F35 "~CLK" O R 4500 3600 60 
+F36 "~RESET" O R 4500 3800 60 
 $EndSheet
 Text Label 3400 1500 0    60   ~ 0
 A0
@@ -272,8 +274,8 @@ Entry Wire Line
 $Sheet
 S 5600 1400 850  2600
 U 577F17CE
-F0 "Card Bus" 60
-F1 "card_bus.sch" 60
+F0 "Card Slots" 60
+F1 "card_slots.sch" 60
 F2 "A0" O L 5600 1500 60 
 F3 "A1" O L 5600 1600 60 
 F4 "A2" O L 5600 1700 60 
@@ -307,6 +309,8 @@ F31 "~BUSACK" O R 6450 2700 60
 F32 "~BUSRQ" I R 6450 2850 60 
 F33 "~MREQ" O R 6450 3150 60 
 F34 "~IORQ" O R 6450 3300 60 
+F35 "~CLK" I R 6450 3500 60 
+F36 "~RESET" I R 6450 3700 60 
 $EndSheet
 Text Label 5400 1500 0    60   ~ 0
 A0
@@ -479,7 +483,7 @@ Text Label 4550 3100 0    60   ~ 0
 Text Label 4550 3250 0    60   ~ 0
 ~IORQ
 Wire Bus Line
-	4950 1100 4950 3350
+	4950 1100 4950 3900
 Wire Bus Line
 	4950 1100 6900 1100
 Wire Wire Line
@@ -537,5 +541,29 @@ Text Label 6500 3150 0    60   ~ 0
 Text Label 6500 3300 0    60   ~ 0
 ~IORQ
 Wire Bus Line
-	6900 1100 6900 3400
+	6900 1100 6900 3800
+Wire Wire Line
+	4500 3600 4850 3600
+Wire Wire Line
+	4500 3800 4850 3800
+Text Label 4550 3600 0    60   ~ 0
+~CLK
+Text Label 4550 3800 0    60   ~ 0
+~RESET
+Entry Wire Line
+	4850 3600 4950 3700
+Entry Wire Line
+	4850 3800 4950 3900
+Wire Wire Line
+	6450 3500 6800 3500
+Entry Wire Line
+	6800 3500 6900 3600
+Text Label 6500 3500 0    60   ~ 0
+~CLK
+Wire Wire Line
+	6450 3700 6800 3700
+Entry Wire Line
+	6800 3700 6900 3800
+Text Label 6500 3700 0    60   ~ 0
+~RESET
 $EndSCHEMATC
