@@ -741,4 +741,6 @@ Text Label 4100 5800 0    60   ~ 0
 ~M1
 Entry Wire Line
 	3950 5700 4050 5800
+Text Notes 7350 7500 0    60   ~ 12
+NRC2016 Root
 $EndSCHEMATC
