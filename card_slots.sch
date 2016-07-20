@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:Zilog
 LIBS:microchip_pic18mcu
 LIBS:6850
+LIBS:nrc2016
 LIBS:z80-cache
 EELAYER 25 0
 EELAYER END

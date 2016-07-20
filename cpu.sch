@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:Zilog
 LIBS:microchip_pic18mcu
 LIBS:6850
+LIBS:nrc2016
 LIBS:z80-cache
 EELAYER 25 0
 EELAYER END
@@ -819,7 +820,7 @@ F 1 "LED" H 6300 5100 50  0000 C CNN
 F 2 "LEDs:LED-3MM" H 6300 5200 50  0001 C CNN
 F 3 "" H 6300 5200 50  0000 C CNN
 	1    6300 5200
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R3

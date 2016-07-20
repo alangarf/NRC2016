@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:Zilog
 LIBS:microchip_pic18mcu
 LIBS:6850
+LIBS:nrc2016
 LIBS:z80-cache
 EELAYER 25 0
 EELAYER END
@@ -601,7 +602,7 @@ F 1 "LED" H 7900 4650 50  0000 C CNN
 F 2 "LEDs:LED_1206" H 7900 4750 50  0001 C CNN
 F 3 "" H 7900 4750 50  0000 C CNN
 	1    7900 4750
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L LED D3
@@ -612,7 +613,7 @@ F 1 "LED" H 7900 4950 50  0000 C CNN
 F 2 "LEDs:LED_1206" H 7900 5050 50  0001 C CNN
 F 3 "" H 7900 5050 50  0000 C CNN
 	1    7900 5050
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L LED D4
@@ -623,7 +624,7 @@ F 1 "LED" H 7900 5250 50  0000 C CNN
 F 2 "LEDs:LED_1206" H 7900 5350 50  0001 C CNN
 F 3 "" H 7900 5350 50  0000 C CNN
 	1    7900 5350
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L LED D5
@@ -634,7 +635,7 @@ F 1 "LED" H 7900 5550 50  0000 C CNN
 F 2 "LEDs:LED_1206" H 7900 5650 50  0001 C CNN
 F 3 "" H 7900 5650 50  0000 C CNN
 	1    7900 5650
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L VCC #PWR028

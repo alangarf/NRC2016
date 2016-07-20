@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL2575-5
+D 5V buck switching regulator
+$ENDCMP
+#
+#End Doc Library
