@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 16
+Sheet 8 11
 Title ""
 Date ""
 Rev ""
@@ -545,20 +545,6 @@ Wire Wire Line
 	3650 5450 3250 5450
 Wire Wire Line
 	3650 5550 3250 5550
-Wire Bus Line
-	3150 1100 3150 4400
-Wire Bus Line
-	3150 1650 3150 3050
-Wire Bus Line
-	3150 3500 3150 6300
-Wire Bus Line
-	3150 4850 3150 4950
-Wire Bus Line
-	3150 5050 3150 5150
-Wire Bus Line
-	3150 5250 3150 5350
-Wire Bus Line
-	3150 5450 3150 5550
 Wire Wire Line
 	2100 1750 1700 1750
 Wire Wire Line
@@ -937,20 +923,6 @@ Wire Wire Line
 	5550 5450 5150 5450
 Wire Wire Line
 	5550 5550 5150 5550
-Wire Bus Line
-	5050 1100 5050 5650
-Wire Bus Line
-	5050 1650 5050 3050
-Wire Bus Line
-	5050 3500 5050 4100
-Wire Bus Line
-	5050 4850 5050 4950
-Wire Bus Line
-	5050 5050 5050 5150
-Wire Bus Line
-	5050 5250 5050 5350
-Wire Bus Line
-	5050 5450 5050 5550
 Wire Wire Line
 	5550 5650 5150 5650
 Wire Wire Line
@@ -1255,20 +1227,6 @@ Wire Wire Line
 	7450 5450 7050 5450
 Wire Wire Line
 	7450 5550 7050 5550
-Wire Bus Line
-	6950 1100 6950 5650
-Wire Bus Line
-	6950 1650 6950 3050
-Wire Bus Line
-	6950 3500 6950 4100
-Wire Bus Line
-	6950 4850 6950 4950
-Wire Bus Line
-	6950 5050 6950 5150
-Wire Bus Line
-	6950 5250 6950 5350
-Wire Bus Line
-	6950 5450 6950 5550
 Wire Wire Line
 	7450 5650 7050 5650
 Wire Wire Line
@@ -1288,343 +1246,35 @@ Wire Wire Line
 Wire Wire Line
 	8200 4100 8500 4100
 Wire Bus Line
-	8600 3700 8600 6300
-$Sheet
-S 9350 1650 750  4200
-U 57832B70
-F0 "PortD" 60
-F1 "bus_port.sch" 60
-F2 "A0" I L 9350 1750 60 
-F3 "A1" I L 9350 1850 60 
-F4 "A2" I L 9350 1950 60 
-F5 "A3" I L 9350 2050 60 
-F6 "A4" I L 9350 2150 60 
-F7 "A5" I L 9350 2250 60 
-F8 "A6" I L 9350 2350 60 
-F9 "A7" I L 9350 2450 60 
-F10 "A8" I L 9350 2550 60 
-F11 "A9" I L 9350 2650 60 
-F12 "A10" I L 9350 2750 60 
-F13 "A11" I L 9350 2850 60 
-F14 "A12" I L 9350 2950 60 
-F15 "A13" I L 9350 3050 60 
-F16 "A14" I L 9350 3150 60 
-F17 "A15" I L 9350 3250 60 
-F18 "D0" T L 9350 3600 60 
-F19 "D1" T L 9350 3700 60 
-F20 "D2" T L 9350 3800 60 
-F21 "D3" T L 9350 3900 60 
-F22 "D4" T L 9350 4000 60 
-F23 "D5" T L 9350 4100 60 
-F24 "D6" T L 9350 4200 60 
-F25 "D7" T L 9350 4300 60 
-F26 "~WAIT" O L 9350 4750 60 
-F27 "~INT" O L 9350 4850 60 
-F28 "~RD" O L 9350 4950 60 
-F29 "~WR" O L 9350 5050 60 
-F30 "~M1" T L 9350 5150 60 
-F31 "~BUSACK" I L 9350 5250 60 
-F32 "~BUSRQ" O L 9350 5350 60 
-F33 "~MREQ" I L 9350 5450 60 
-F34 "~IORQ" I L 9350 5550 60 
-F35 "~CLK" I L 9350 5650 60 
-F36 "~RESET" I L 9350 5750 60 
-F37 "~NMI" O L 9350 4650 60 
-F38 "SPARE1" B R 10100 3600 60 
-F39 "SPARE2" B R 10100 3700 60 
-F40 "SPARE3" B R 10100 3800 60 
-F41 "SPARE4" B R 10100 3900 60 
-F42 "SPARE5" B R 10100 4000 60 
-F43 "SPARE6" B R 10100 4100 60 
-$EndSheet
-Entry Wire Line
-	8850 1650 8950 1750
-Entry Wire Line
-	8850 1750 8950 1850
-Entry Wire Line
-	8850 1850 8950 1950
-Entry Wire Line
-	8850 1950 8950 2050
-Entry Wire Line
-	8850 2050 8950 2150
-Entry Wire Line
-	8850 2150 8950 2250
-Entry Wire Line
-	8850 2250 8950 2350
-Entry Wire Line
-	8850 2350 8950 2450
-Entry Wire Line
-	8850 2450 8950 2550
-Entry Wire Line
-	8850 2550 8950 2650
-Entry Wire Line
-	8850 2650 8950 2750
-Entry Wire Line
-	8850 2750 8950 2850
-Entry Wire Line
-	8850 2850 8950 2950
-Entry Wire Line
-	8850 2950 8950 3050
-Entry Wire Line
-	8850 3050 8950 3150
-Entry Wire Line
-	8850 3150 8950 3250
-Entry Wire Line
-	8850 3500 8950 3600
-Entry Wire Line
-	8850 3600 8950 3700
-Entry Wire Line
-	8850 3700 8950 3800
-Entry Wire Line
-	8850 3800 8950 3900
-Entry Wire Line
-	8850 3900 8950 4000
-Entry Wire Line
-	8850 4000 8950 4100
-Entry Wire Line
-	8850 4100 8950 4200
-Entry Wire Line
-	8850 4200 8950 4300
-Entry Wire Line
-	8850 4650 8950 4750
-Entry Wire Line
-	8850 4750 8950 4850
-Entry Wire Line
-	8850 4850 8950 4950
-Entry Wire Line
-	8850 4950 8950 5050
-Entry Wire Line
-	8850 5050 8950 5150
-Entry Wire Line
-	8850 5150 8950 5250
-Entry Wire Line
-	8850 5250 8950 5350
-Entry Wire Line
-	8850 5350 8950 5450
-Entry Wire Line
-	8850 5450 8950 5550
-Text Label 9000 1750 0    60   ~ 0
-A0
-Text Label 9000 1850 0    60   ~ 0
-A1
-Text Label 9000 1950 0    60   ~ 0
-A2
-Text Label 9000 2050 0    60   ~ 0
-A3
-Text Label 9000 2150 0    60   ~ 0
-A4
-Text Label 9000 2250 0    60   ~ 0
-A5
-Text Label 9000 2350 0    60   ~ 0
-A6
-Text Label 9000 2450 0    60   ~ 0
-A7
-Text Label 9000 2550 0    60   ~ 0
-A8
-Text Label 9000 2650 0    60   ~ 0
-A9
-Text Label 9000 2750 0    60   ~ 0
-A10
-Text Label 9000 2850 0    60   ~ 0
-A11
-Text Label 9000 2950 0    60   ~ 0
-A12
-Text Label 9000 3050 0    60   ~ 0
-A13
-Text Label 9000 3150 0    60   ~ 0
-A14
-Text Label 9000 3250 0    60   ~ 0
-A15
-Text Label 9000 3600 0    60   ~ 0
-D0
-Text Label 9000 3700 0    60   ~ 0
-D1
-Text Label 9000 3800 0    60   ~ 0
-D2
-Text Label 9000 3900 0    60   ~ 0
-D3
-Text Label 9000 4000 0    60   ~ 0
-D4
-Text Label 9000 4100 0    60   ~ 0
-D5
-Text Label 9000 4200 0    60   ~ 0
-D6
-Text Label 9000 4300 0    60   ~ 0
-D7
-Text Label 9000 4750 0    60   ~ 0
-~WAIT
-Text Label 9000 4850 0    60   ~ 0
-~INT
-Text Label 9000 4950 0    60   ~ 0
-~RD
-Text Label 9000 5050 0    60   ~ 0
-~WR
-Text Label 9000 5150 0    60   ~ 0
-~M1
-Text Label 9000 5250 0    60   ~ 0
-~BUSACK
-Text Label 9000 5350 0    60   ~ 0
-~BUSRQ
-Text Label 9000 5450 0    60   ~ 0
-~MREQ
-Text Label 9000 5550 0    60   ~ 0
-~IORQ
-Entry Wire Line
-	8850 5550 8950 5650
-Text Label 9000 5650 0    60   ~ 0
-~CLK
-Entry Wire Line
-	8850 5650 8950 5750
-Text Label 9000 5750 0    60   ~ 0
-~RESET
-Entry Wire Line
-	8850 4550 8950 4650
-Text Label 9000 4650 0    60   ~ 0
-~NMI
-Entry Wire Line
-	10400 3600 10500 3700
-Entry Wire Line
-	10400 3700 10500 3800
-Entry Wire Line
-	10400 3800 10500 3900
-Entry Wire Line
-	10400 3900 10500 4000
-Entry Wire Line
-	10400 4000 10500 4100
-Entry Wire Line
-	10400 4100 10500 4200
-Text Label 10150 3600 0    60   ~ 0
-S1
-Text Label 10150 3700 0    60   ~ 0
-S2
-Text Label 10150 3800 0    60   ~ 0
-S3
-Text Label 10150 3900 0    60   ~ 0
-S4
-Text Label 10150 4000 0    60   ~ 0
-S5
-Text Label 10150 4100 0    60   ~ 0
-S6
-Wire Wire Line
-	9350 1750 8950 1750
-Wire Wire Line
-	9350 1850 8950 1850
-Wire Wire Line
-	9350 1950 8950 1950
-Wire Wire Line
-	9350 2050 8950 2050
-Wire Wire Line
-	9350 2150 8950 2150
-Wire Wire Line
-	9350 2250 8950 2250
-Wire Wire Line
-	9350 2350 8950 2350
-Wire Wire Line
-	9350 2450 8950 2450
-Wire Wire Line
-	9350 2550 8950 2550
-Wire Wire Line
-	9350 2650 8950 2650
-Wire Wire Line
-	9350 2750 8950 2750
-Wire Wire Line
-	9350 2850 8950 2850
-Wire Wire Line
-	9350 2950 8950 2950
-Wire Wire Line
-	9350 3050 8950 3050
-Wire Wire Line
-	9350 3150 8950 3150
-Wire Wire Line
-	9350 3250 8950 3250
-Wire Wire Line
-	9350 3600 8950 3600
-Wire Wire Line
-	9350 3700 8950 3700
-Wire Wire Line
-	9350 3800 8950 3800
-Wire Wire Line
-	9350 3900 8950 3900
-Wire Wire Line
-	9350 4000 8950 4000
-Wire Wire Line
-	9350 4100 8950 4100
-Wire Wire Line
-	9350 4200 8950 4200
-Wire Wire Line
-	9350 4300 8950 4300
-Wire Wire Line
-	9350 4750 8950 4750
-Wire Wire Line
-	9350 4850 8950 4850
-Wire Wire Line
-	9350 4950 8950 4950
-Wire Wire Line
-	9350 5050 8950 5050
-Wire Wire Line
-	9350 5150 8950 5150
-Wire Wire Line
-	9350 5250 8950 5250
-Wire Wire Line
-	9350 5350 8950 5350
-Wire Wire Line
-	9350 5450 8950 5450
-Wire Wire Line
-	9350 5550 8950 5550
-Wire Bus Line
-	8850 1100 8850 5650
-Wire Bus Line
-	8850 1850 8850 1950
-Wire Bus Line
-	8850 2050 8850 2150
-Wire Bus Line
-	8850 2250 8850 2350
-Wire Bus Line
-	8850 2450 8850 2550
-Wire Bus Line
-	8850 2650 8850 2750
-Wire Bus Line
-	8850 2850 8850 2950
-Wire Bus Line
-	8850 3700 8850 3800
-Wire Bus Line
-	8850 3900 8850 4000
-Wire Bus Line
-	8850 4850 8850 4950
-Wire Bus Line
-	8850 5050 8850 5150
-Wire Bus Line
-	8850 5250 8850 5350
-Wire Bus Line
-	8850 5450 8850 5550
-Wire Wire Line
-	9350 5650 8950 5650
-Wire Wire Line
-	9350 5750 8950 5750
-Wire Wire Line
-	9350 4650 8950 4650
-Wire Wire Line
-	10100 3600 10400 3600
-Wire Wire Line
-	10100 3700 10400 3700
-Wire Wire Line
-	10100 3800 10400 3800
-Wire Wire Line
-	10100 3900 10400 3900
-Wire Wire Line
-	10100 4000 10400 4000
-Wire Wire Line
-	10100 4100 10400 4100
-Wire Bus Line
-	10500 3700 10500 6300
+	8600 6300 8600 3700
 Entry Wire Line
 	6950 3150 7050 3250
 Wire Bus Line
-	10500 6300 4800 6300
-Wire Bus Line
 	3150 4200 3150 4150
 Wire Bus Line
-	3150 1100 8850 1100
+	2200 6300 8600 6300
 Wire Bus Line
-	2200 6300 3150 6300
+	3150 1650 3150 6300
+Wire Bus Line
+	5050 1650 5050 6300
+Wire Bus Line
+	6950 1650 6950 6300
+Wire Bus Line
+	6950 6300 6900 6300
+Text HLabel 1700 5950 0    60   BiDi ~ 0
+SPARE1
+Text HLabel 1700 6050 0    60   BiDi ~ 0
+SPARE2
+Entry Wire Line
+	2100 5950 2200 6050
+Entry Wire Line
+	2100 6050 2200 6150
+Wire Wire Line
+	1700 5950 2100 5950
+Wire Wire Line
+	1700 6050 2100 6050
+Text Label 1750 5950 0    60   ~ 0
+S1
+Text Label 1750 6050 0    60   ~ 0
+S2
 $EndSCHEMATC
