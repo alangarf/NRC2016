@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ncr2016_logo)(type KiCad)(uri "$(KIPRJMOD)/ncr2016_logo")(options "")(descr ""))
+)
