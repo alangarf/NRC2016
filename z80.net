@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/alan/projects/kicad/rc2014/z80.sch)
-    (date "Sunday, 24 July 2016 'pmt' 12:13:46 pm")
+    (date "Sunday, 24 July 2016 'pmt' 05:16:19 pm")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -181,7 +181,7 @@
       (tstamp 577A4BA5))
     (comp (ref SW1)
       (value RESET)
-      (footprint Buttons_Switches_SMD:SW_SPST_B3SL-1002P)
+      (footprint Buttons_Switches_ThroughHole:SW_PUSH_SMALL)
       (libsource (lib device) (part SW_PUSH))
       (sheetpath (names /CPU/) (tstamps /577A9E9B/))
       (tstamp 577B1877))
@@ -289,7 +289,7 @@
       (tstamp 578B9985))
     (comp (ref SW2)
       (value STEP)
-      (footprint Buttons_Switches_SMD:SW_SPST_B3SL-1002P)
+      (footprint Buttons_Switches_ThroughHole:SW_PUSH_SMALL)
       (libsource (lib device) (part SW_PUSH))
       (sheetpath (names /CPU/) (tstamps /577A9E9B/))
       (tstamp 578B9BE1))
