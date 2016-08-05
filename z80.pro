@@ -1,4 +1,4 @@
-update=20-7-2016 22:26:54
+update=Friday, 05 August 2016 'pmt' 10:50:59 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,3 +72,5 @@ LibName30=Zilog
 LibName31=microchip_pic18mcu
 LibName32=lib/6850
 LibName33=lib/nrc2016
+LibName34=lib/atf16v8cv
+LibName35=lib/62256
