@@ -65,7 +65,7 @@ AR Path="/577F17CE/57978710/5780CE22" Ref="CB1"  Part="1"
 AR Path="/577F17CE/5797AC61/5780CE22" Ref="CC1"  Part="1" 
 AR Path="/577F17CE/5797AD5E/5780CE22" Ref="CD1"  Part="1" 
 AR Path="/577F17CE/5798778E/5780CE22" Ref="CE1"  Part="1" 
-F 0 "CA1" H 3025 4650 50  0000 L CNN
+F 0 "CD1" H 3025 4650 50  0000 L CNN
 F 1 "100n" H 3025 4450 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 3038 4400 50  0001 C CNN
 F 3 "" H 3000 4550 50  0000 C CNN
@@ -238,7 +238,7 @@ Wire Wire Line
 	3900 5250 4250 5250
 Wire Wire Line
 	4250 4550 3900 4550
-Text HLabel 5100 4850 2    60   Output ~ 0
+Text HLabel 5100 5250 2    60   Output ~ 0
 ~NMI
 Wire Wire Line
 	4250 6150 3900 6150
@@ -292,11 +292,11 @@ Text HLabel 3900 5050 0    60   Output ~ 0
 ~WR
 Text HLabel 3900 5150 0    60   Output ~ 0
 ~RD
-Text HLabel 5100 4650 2    60   Output ~ 0
+Text HLabel 5100 5050 2    60   Output ~ 0
 ~WAIT
-Text HLabel 5100 4550 2    60   Output ~ 0
+Text HLabel 5100 4950 2    60   Output ~ 0
 ~BUSRQ
-Text HLabel 5100 4750 2    60   Input ~ 0
+Text HLabel 5100 5150 2    60   Input ~ 0
 ~BUSACK
 Wire Wire Line
 	4750 4950 5100 4950
@@ -306,13 +306,13 @@ Wire Wire Line
 	4750 5150 5100 5150
 Wire Wire Line
 	4750 5250 5100 5250
-Text HLabel 5100 4950 2    60   Input ~ 0
+Text HLabel 5100 4550 2    60   Input ~ 0
 ~IOSEL0
-Text HLabel 5100 5050 2    60   Input ~ 0
+Text HLabel 5100 4650 2    60   Input ~ 0
 ~IOSEL1
-Text HLabel 5100 5150 2    60   Input ~ 0
+Text HLabel 5100 4750 2    60   Input ~ 0
 ~IOSEL2
-Text HLabel 5100 5250 2    60   Input ~ 0
+Text HLabel 5100 4850 2    60   Input ~ 0
 ~IOSEL3
 $Comp
 L CONN_01X40 PA1
@@ -323,7 +323,7 @@ AR Path="/577F17CE/57978710/579E12E5" Ref="PB1"  Part="1"
 AR Path="/577F17CE/5797AC61/579E12E5" Ref="PC1"  Part="1" 
 AR Path="/577F17CE/5797AD5E/579E12E5" Ref="PD1"  Part="1" 
 AR Path="/577F17CE/5798778E/579E12E5" Ref="PE1"  Part="1" 
-F 0 "PA1" H 4450 6750 50  0000 C CNN
+F 0 "PD1" H 4450 6750 50  0000 C CNN
 F 1 "CONN_01X40" V 4550 6400 50  0001 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x40" H 4450 4700 50  0001 C CNN
 F 3 "" H 4450 4700 50  0000 C CNN
@@ -338,9 +338,9 @@ AR Path="/577F17CE/577F1897/57B9EC3D" Ref="PA2"  Part="1"
 AR Path="/577F17CE/57978710/57B9EC3D" Ref="PB2"  Part="1" 
 AR Path="/577F17CE/5797AC61/57B9EC3D" Ref="PC2"  Part="1" 
 AR Path="/577F17CE/5797AD5E/57B9EC3D" Ref="PD2"  Part="1" 
-F 0 "PA2" H 4500 5550 50  0000 C CNN
+F 0 "PD2" H 4500 5550 50  0000 C CNN
 F 1 "CONN_01X10" V 4650 5000 50  0001 C CNN
-F 2 "" H 4550 5000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x10" H 4550 5000 50  0001 C CNN
 F 3 "" H 4550 5000 50  0000 C CNN
 	1    4550 5000
 	-1   0    0    -1  

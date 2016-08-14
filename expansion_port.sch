@@ -65,25 +65,25 @@ Text HLabel 3500 2850 0    60   Input ~ 0
 A6
 Text HLabel 3500 2750 0    60   Input ~ 0
 A7
-Text HLabel 3500 4550 0    60   3State ~ 0
-D0
 Text HLabel 3500 4650 0    60   3State ~ 0
-D1
+D0
 Text HLabel 3500 4750 0    60   3State ~ 0
-D2
+D1
 Text HLabel 3500 4850 0    60   3State ~ 0
-D3
+D2
 Text HLabel 3500 4950 0    60   3State ~ 0
-D4
+D3
 Text HLabel 3500 5050 0    60   3State ~ 0
-D5
+D4
 Text HLabel 3500 5150 0    60   3State ~ 0
-D6
+D5
 Text HLabel 3500 5250 0    60   3State ~ 0
+D6
+Text HLabel 3500 5350 0    60   3State ~ 0
 D7
 Text HLabel 3500 3750 0    60   3State ~ 0
 ~M1
-Text HLabel 3500 4450 0    60   Input ~ 0
+Text HLabel 3500 4550 0    60   Input ~ 0
 ~IORQ
 Wire Wire Line
 	3500 2750 3850 2750
@@ -147,13 +147,13 @@ Text HLabel 3500 3850 0    60   Input ~ 0
 ~RESET
 Text HLabel 3500 3950 0    60   Input ~ 0
 ~CLK
-Text HLabel 3500 4050 0    60   Output ~ 0
+Text HLabel 3500 4150 0    60   Output ~ 0
 ~INT
 Text HLabel 3500 4250 0    60   Output ~ 0
 ~WR
 Text HLabel 3500 4350 0    60   Output ~ 0
 ~RD
-Text HLabel 3500 4150 0    60   Input ~ 0
+Text HLabel 3500 4450 0    60   Input ~ 0
 IEI
 Wire Wire Line
 	2600 3550 3850 3550
@@ -218,22 +218,22 @@ U 1 1 57BF4E4B
 P 4050 4300
 F 0 "PE1" H 4050 5950 50  0000 C CNN
 F 1 "CONN_01X32" V 4150 4300 50  0001 C CNN
-F 2 "" H 4050 4300 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x32" H 4050 4300 50  0001 C CNN
 F 3 "" H 4050 4300 50  0000 C CNN
 	1    4050 4300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3850 5350 3500 5350
 Wire Wire Line
 	3500 5450 3850 5450
-Text HLabel 3500 5450 0    60   BiDi ~ 0
+Text HLabel 3500 5550 0    60   BiDi ~ 0
 RX
-Text HLabel 3500 5350 0    60   BiDi ~ 0
+Text HLabel 3500 5450 0    60   BiDi ~ 0
 TX
 Wire Wire Line
 	3500 4150 3850 4150
-Text HLabel 3500 5550 0    60   Input ~ 0
+Text HLabel 3500 4050 0    60   Input ~ 0
 ~WAIT
 Wire Wire Line
 	3500 5550 3850 5550
