@@ -1246,12 +1246,12 @@ Entry Wire Line
 Entry Wire Line
 	3000 6750 3100 6850
 Entry Wire Line
-	3000 7050 3100 7150
-Entry Wire Line
 	3000 7150 3100 7250
-Text Label 3150 7150 0    60   ~ 0
-~M1
+Entry Wire Line
+	3000 7250 3100 7350
 Text Label 3150 7250 0    60   ~ 0
+~M1
+Text Label 3150 7350 0    60   ~ 0
 ~IORQ
 $Comp
 L C C7
@@ -1942,11 +1942,11 @@ Wire Wire Line
 Wire Wire Line
 	3100 6850 3550 6850
 Wire Bus Line
-	3000 6250 3000 7150
-Wire Wire Line
-	3100 7150 3550 7150
+	3000 6250 3000 7250
 Wire Wire Line
 	3100 7250 3550 7250
+Wire Wire Line
+	3100 7350 3550 7350
 Wire Bus Line
 	1550 6250 11100 6250
 Wire Wire Line
@@ -2109,4 +2109,10 @@ Text Label 10650 3350 0    60   ~ 0
 TX
 Text Label 10650 3450 0    60   ~ 0
 RX
+Entry Wire Line
+	3000 7050 3100 7150
+Text Label 3150 7150 0    60   ~ 0
+A2
+Wire Wire Line
+	3100 7150 3550 7150
 $EndSCHEMATC
