@@ -1,4 +1,4 @@
-update=Friday, 05 August 2016 'pmt' 10:50:59 pm
+update=Monday, 15 August 2016 'pmt' 08:43:21 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -74,3 +74,4 @@ LibName32=lib/6850
 LibName33=lib/nrc2016
 LibName34=lib/atf16v8cv
 LibName35=lib/62256
+LibName36=lib/mcp2221a
