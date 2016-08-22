@@ -1,0 +1,53 @@
+Name            NRC2016DECODER;
+Partno          ATF16V8C;
+Revision        01;
+Date            3-8-2016;
+Designer        Niels Moseley;
+Company         Moseley Instruments;
+Assembly        NRC2016 IO decoder;
+Location        Unknown;
+Device          g16v8a;
+
+/********************************************************************************/
+/* This device partially decodes the I/O address for the NRC2016        	*/
+/* computer                                                             	*/
+/* 										*/
+/* use Consolas font for proper formatting 					*/
+/* computer                                                             	*/
+/********************************************************************************/
+
+/* input signals */
+
+pin 1      = clk ;				/* oscillator clock            	*/
+pin [4..2] = [a7..a5];
+pin 5      = !iorq ;				/* /IORQ signal from z80       	*/
+pin 6      = !m1 ;                        	/* /M1 signal from z80         	*/
+pin 7      = !rd ;				/* /RD signal from z80         	*/
+pin 8      = !wr ;				/* /WR signal from z80	    	*/
+
+/* outputs (available: 12..19) */
+
+pin 19	   = !intack ;				/* interrupt acknowledge      	*/
+pin 18     = !iosel0 ;
+pin 17     = !iosel1 ;
+pin 16     = !iosel2 ;
+pin 15     = !iosel3 ;
+pin 14     = !iosel4 ;
+pin 13     = !iosel5 ;
+pin 12     = !iosel6 ;
+
+
+/** declarations **/
+
+field addr = [a7..a5] ;
+
+/** equations **/
+iosel0 = addr:[ 0..1F] & iorq & !m1;
+iosel1 = addr:[20..3F] & iorq & !m1;
+iosel2 = addr:[40..5F] & iorq & !m1;
+iosel3 = addr:[60..7F] & iorq & !m1;
+iosel4 = addr:[80..9F] & iorq & !m1;
+iosel5 = addr:[A0..BF] & iorq & !m1;
+iosel6 = addr:[C0..DF] & iorq & !m1;
+intack = m1 & iorq;
+
