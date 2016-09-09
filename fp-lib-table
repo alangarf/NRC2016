@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name ncr2016_logo)(type KiCad)(uri "$(KIPRJMOD)/ncr2016_logo")(options "")(descr ""))
-  (lib (name nrc2016)(type KiCad)(uri "$(KIPRJMOD)/nrc2016.pretty")(options "")(descr ""))
-)

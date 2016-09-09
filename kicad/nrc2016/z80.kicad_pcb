@@ -1689,7 +1689,7 @@
       (net 2 GND))
   )
 
-  (module ncr2016_logo:nrc2016_top_logo_1600 (layer Top) (tedit 0) (tstamp 57B36E47)
+  (module nrc2016_logo:nrc2016_top_logo_1600 (layer Top) (tedit 0) (tstamp 57B36E47)
     (at 81.788 83.82 90)
     (path /57B3A1A4)
     (fp_text reference LOGO1 (at 0 0 90) (layer F.SilkS) hide
@@ -2750,7 +2750,7 @@
     )
   )
 
-  (module ncr2016_logo:nrc2016_bottom_logo_600_v3 (layer Bottom) (tedit 0) (tstamp 57BA316C)
+  (module nrc2016_logo:nrc2016_bottom_logo_600_v3 (layer Bottom) (tedit 0) (tstamp 57BA316C)
     (at 95.758 77.47 270)
     (path /57B3B1B1)
     (fp_text reference LOGO2 (at 0 0 270) (layer B.SilkS) hide
