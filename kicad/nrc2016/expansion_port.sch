@@ -29,12 +29,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Zilog
-LIBS:microchip_pic18mcu
-LIBS:6850
 LIBS:nrc2016
 LIBS:atf16v8cv
-LIBS:62256
-LIBS:mcp2221a
 LIBS:z80-cache
 EELAYER 25 0
 EELAYER END
@@ -50,192 +46,192 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3500 3450 0    60   Input ~ 0
+Text HLabel 5500 3050 0    60   Input ~ 0
 A0
-Text HLabel 3500 3350 0    60   Input ~ 0
+Text HLabel 5500 2950 0    60   Input ~ 0
 A1
-Text HLabel 3500 3250 0    60   Input ~ 0
+Text HLabel 5500 2850 0    60   Input ~ 0
 A2
-Text HLabel 3500 3150 0    60   Input ~ 0
+Text HLabel 5500 2750 0    60   Input ~ 0
 A3
-Text HLabel 3500 3050 0    60   Input ~ 0
+Text HLabel 5500 2650 0    60   Input ~ 0
 A4
-Text HLabel 3500 2950 0    60   Input ~ 0
+Text HLabel 5500 2550 0    60   Input ~ 0
 A5
-Text HLabel 3500 2850 0    60   Input ~ 0
+Text HLabel 5500 2450 0    60   Input ~ 0
 A6
-Text HLabel 3500 2750 0    60   Input ~ 0
+Text HLabel 5500 2350 0    60   Input ~ 0
 A7
-Text HLabel 3500 4650 0    60   3State ~ 0
+Text HLabel 5500 4250 0    60   3State ~ 0
 D0
-Text HLabel 3500 4750 0    60   3State ~ 0
+Text HLabel 5500 4350 0    60   3State ~ 0
 D1
-Text HLabel 3500 4850 0    60   3State ~ 0
+Text HLabel 5500 4450 0    60   3State ~ 0
 D2
-Text HLabel 3500 4950 0    60   3State ~ 0
+Text HLabel 5500 4550 0    60   3State ~ 0
 D3
-Text HLabel 3500 5050 0    60   3State ~ 0
+Text HLabel 5500 4650 0    60   3State ~ 0
 D4
-Text HLabel 3500 5150 0    60   3State ~ 0
+Text HLabel 5500 4750 0    60   3State ~ 0
 D5
-Text HLabel 3500 5250 0    60   3State ~ 0
+Text HLabel 5500 4850 0    60   3State ~ 0
 D6
-Text HLabel 3500 5350 0    60   3State ~ 0
+Text HLabel 5500 4950 0    60   3State ~ 0
 D7
-Text HLabel 3500 3750 0    60   3State ~ 0
+Text HLabel 5500 3350 0    60   3State ~ 0
 ~M1
-Text HLabel 3500 4550 0    60   Input ~ 0
+Text HLabel 5500 4150 0    60   Input ~ 0
 ~IORQ
 Wire Wire Line
-	3500 2750 3850 2750
+	5500 2350 5850 2350
 Wire Wire Line
-	3500 2850 3850 2850
+	5500 2450 5850 2450
 Wire Wire Line
-	3500 2950 3850 2950
+	5500 2550 5850 2550
 Wire Wire Line
-	3500 3050 3850 3050
+	5500 2650 5850 2650
 Wire Wire Line
-	3500 3150 3850 3150
+	5500 2750 5850 2750
 Wire Wire Line
-	3500 3250 3850 3250
+	5500 2850 5850 2850
 Wire Wire Line
-	3500 3350 3850 3350
+	5500 2950 5850 2950
 Wire Wire Line
-	3500 3450 3850 3450
+	5500 3050 5850 3050
 Wire Wire Line
-	3500 4550 3850 4550
+	5500 4150 5850 4150
 Wire Wire Line
-	3500 4650 3850 4650
+	5500 4250 5850 4250
 Wire Wire Line
-	3500 4750 3850 4750
+	5500 4350 5850 4350
 Wire Wire Line
-	3500 4850 3850 4850
+	5500 4450 5850 4450
 Wire Wire Line
-	3500 4950 3850 4950
+	5500 4550 5850 4550
 Wire Wire Line
-	3500 5050 3850 5050
+	5500 4650 5850 4650
 Wire Wire Line
-	3500 5150 3850 5150
+	5500 4750 5850 4750
 Wire Wire Line
-	3500 5250 3850 5250
+	5500 4850 5850 4850
 Wire Wire Line
-	3500 4350 3850 4350
+	5500 3950 5850 3950
 Wire Wire Line
-	3500 4450 3850 4450
+	5500 4050 5850 4050
 Wire Wire Line
-	3850 3750 3500 3750
+	5850 3350 5500 3350
 Wire Wire Line
-	3850 5650 3500 5650
+	5850 5250 5500 5250
 Wire Wire Line
-	3850 5750 3500 5750
+	5850 5350 5500 5350
 Wire Wire Line
-	3850 5850 3500 5850
-Text HLabel 3500 5650 0    60   BiDi ~ 0
+	5850 5450 5500 5450
+Text HLabel 5500 5250 0    60   BiDi ~ 0
 SPARE1
-Text HLabel 3500 5750 0    60   BiDi ~ 0
+Text HLabel 5500 5350 0    60   BiDi ~ 0
 SPARE2
-Text HLabel 3500 5850 0    60   BiDi ~ 0
+Text HLabel 5500 5450 0    60   BiDi ~ 0
 SPARE3
 Wire Wire Line
-	3850 3850 3500 3850
+	5850 3450 5500 3450
 Wire Wire Line
-	3850 3950 3500 3950
+	5850 3550 5500 3550
 Wire Wire Line
-	3850 4050 3500 4050
+	5850 3650 5500 3650
 Wire Wire Line
-	3850 4250 3500 4250
-Text HLabel 3500 3850 0    60   Input ~ 0
+	5850 3850 5500 3850
+Text HLabel 5500 3450 0    60   Input ~ 0
 ~RESET
-Text HLabel 3500 3950 0    60   Input ~ 0
+Text HLabel 5500 3550 0    60   Input ~ 0
 ~CLK
-Text HLabel 3500 4150 0    60   Output ~ 0
+Text HLabel 5500 3750 0    60   Output ~ 0
 ~INT
-Text HLabel 3500 4250 0    60   Output ~ 0
+Text HLabel 5500 3850 0    60   Output ~ 0
 ~WR
-Text HLabel 3500 4350 0    60   Output ~ 0
+Text HLabel 5500 3950 0    60   Output ~ 0
 ~RD
-Text HLabel 3500 4450 0    60   Input ~ 0
+Text HLabel 5500 4050 0    60   Input ~ 0
 IEI
 Wire Wire Line
-	2600 3550 3850 3550
+	4600 3150 5850 3150
 Wire Wire Line
-	2900 3650 3850 3650
+	4900 3250 5850 3250
 $Comp
 L C CE1
 U 1 1 57BF4B26
-P 2600 3750
-F 0 "CE1" H 2625 3850 50  0000 L CNN
-F 1 "100n" H 2625 3650 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 2638 3600 50  0001 C CNN
-F 3 "" H 2600 3750 50  0000 C CNN
-	1    2600 3750
+P 4600 3350
+F 0 "CE1" H 4625 3450 50  0000 L CNN
+F 1 "100n" H 4625 3250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 4638 3200 50  0001 C CNN
+F 3 "" H 4600 3350 50  0000 C CNN
+	1    4600 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 3500 2600 3600
+	4600 3100 4600 3200
 Wire Wire Line
-	2600 3900 2600 4000
+	4600 3500 4600 3600
 $Comp
 L VCC #PWR033
 U 1 1 57BF4B2F
-P 2600 3500
-F 0 "#PWR033" H 2600 3350 50  0001 C CNN
-F 1 "VCC" H 2600 3650 50  0000 C CNN
-F 2 "" H 2600 3500 50  0000 C CNN
-F 3 "" H 2600 3500 50  0000 C CNN
-	1    2600 3500
+P 4600 3100
+F 0 "#PWR033" H 4600 2950 50  0001 C CNN
+F 1 "VCC" H 4600 3250 50  0000 C CNN
+F 2 "" H 4600 3100 50  0000 C CNN
+F 3 "" H 4600 3100 50  0000 C CNN
+	1    4600 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR034
 U 1 1 57BF4B35
-P 2600 4000
-F 0 "#PWR034" H 2600 3750 50  0001 C CNN
-F 1 "GND" H 2600 3850 50  0000 C CNN
-F 2 "" H 2600 4000 50  0000 C CNN
-F 3 "" H 2600 4000 50  0000 C CNN
-	1    2600 4000
+P 4600 3600
+F 0 "#PWR034" H 4600 3350 50  0001 C CNN
+F 1 "GND" H 4600 3450 50  0000 C CNN
+F 2 "" H 4600 3600 50  0000 C CNN
+F 3 "" H 4600 3600 50  0000 C CNN
+	1    4600 3600
 	1    0    0    -1  
 $EndComp
-Text Notes 2300 3250 0    60   ~ 0
+Text Notes 4300 2850 0    60   ~ 0
 Decoupling
 Wire Notes Line
-	2250 3150 2950 3150
+	4250 2750 4950 2750
 Wire Notes Line
-	2950 3150 2950 4250
+	4950 2750 4950 3850
 Wire Notes Line
-	2950 4250 2250 4250
+	4950 3850 4250 3850
 Wire Notes Line
-	2250 4250 2250 3150
+	4250 3850 4250 2750
 Wire Wire Line
-	2900 3650 2900 3950
-Connection ~ 2600 3550
+	4900 3250 4900 3550
+Connection ~ 4600 3150
 Wire Wire Line
-	2900 3950 2600 3950
-Connection ~ 2600 3950
-$Comp
-L CONN_01X32 PE1
-U 1 1 57BF4E4B
-P 4050 4300
-F 0 "PE1" H 4050 5950 50  0000 C CNN
-F 1 "CONN_01X32" V 4150 4300 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x32" H 4050 4300 50  0001 C CNN
-F 3 "" H 4050 4300 50  0000 C CNN
-	1    4050 4300
-	1    0    0    1   
-$EndComp
+	4900 3550 4600 3550
+Connection ~ 4600 3550
 Wire Wire Line
-	3850 5350 3500 5350
+	5850 4950 5500 4950
 Wire Wire Line
-	3500 5450 3850 5450
-Text HLabel 3500 5550 0    60   BiDi ~ 0
+	5500 5050 5850 5050
+Text HLabel 5500 5150 0    60   BiDi ~ 0
 RX
-Text HLabel 3500 5450 0    60   BiDi ~ 0
+Text HLabel 5500 5050 0    60   BiDi ~ 0
 TX
 Wire Wire Line
-	3500 4150 3850 4150
-Text HLabel 3500 4050 0    60   Input ~ 0
+	5500 3750 5850 3750
+Text HLabel 5500 3650 0    60   Input ~ 0
 ~WAIT
 Wire Wire Line
-	3500 5550 3850 5550
+	5500 5150 5850 5150
+$Comp
+L EXPANSION PE1
+U 1 1 57D4785E
+P 6050 2250
+F 0 "PE1" H 6150 2300 60  0000 C CNN
+F 1 "EXPANSION" V 6500 1950 60  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x32" H 5850 2300 60  0001 C CNN
+F 3 "" H 5850 2300 60  0000 C CNN
+	1    6050 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -29,12 +29,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Zilog
-LIBS:microchip_pic18mcu
-LIBS:6850
 LIBS:nrc2016
 LIBS:atf16v8cv
-LIBS:62256
-LIBS:mcp2221a
 LIBS:z80-cache
 EELAYER 25 0
 EELAYER END

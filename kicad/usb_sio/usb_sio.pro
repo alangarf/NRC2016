@@ -1,4 +1,4 @@
-update=Saturday, 10 September 2016 'pmt' 02:38:09 pm
+update=Saturday, 10 September 2016 'pmt' 07:20:56 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../lib
@@ -58,4 +56,8 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/Users/alan/projects/kicad/nrc2016/lib/mcp2221a
+LibName30=mcp2200
+LibName31=6850
+LibName32=nrc2016
+[general]
+version=1

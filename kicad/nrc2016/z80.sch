@@ -29,12 +29,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Zilog
-LIBS:microchip_pic18mcu
-LIBS:6850
 LIBS:nrc2016
 LIBS:atf16v8cv
-LIBS:62256
-LIBS:mcp2221a
 LIBS:z80-cache
 EELAYER 25 0
 EELAYER END
@@ -760,17 +756,6 @@ Wire Wire Line
 	9450 1300 10400 1300
 Wire Wire Line
 	9450 1300 9450 1050
-$Comp
-L CONN_01X02 P2
-U 1 1 57A5699E
-P 10600 1250
-F 0 "P2" H 10600 1400 50  0000 C CNN
-F 1 "CONN_01X02" V 10700 1250 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 10600 1250 50  0001 C CNN
-F 3 "" H 10600 1250 50  0000 C CNN
-	1    10600 1250
-	1    0    0    -1  
-$EndComp
 Text Notes 10350 950  0    60   ~ 0
 place next to\ncard slot #1
 Wire Wire Line
@@ -797,6 +782,17 @@ F 1 "BackLogo" H 3650 7800 60  0000 C CNN
 F 2 "nrc2016_logo:nrc2016_bottom_logo_600_v2" H 3400 7500 60  0001 C CNN
 F 3 "" H 3400 7500 60  0000 C CNN
 	1    3400 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB P2
+U 1 1 57D437FB
+P 10600 800
+F 0 "P2" H 10750 550 60  0000 C CNN
+F 1 "USB" H 10900 350 60  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 10600 800 60  0001 C CNN
+F 3 "" H 10600 800 60  0000 C CNN
+	1    10600 800 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
