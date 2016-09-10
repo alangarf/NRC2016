@@ -1,4 +1,4 @@
-update=Monday, 15 August 2016 'pmt' 08:43:21 pm
+update=Saturday, 10 September 2016 'pmt' 02:41:32 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -35,9 +33,11 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=lib
+LibDir=../lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -69,9 +69,7 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=Zilog
-LibName31=microchip_pic18mcu
-LibName32=lib/6850
-LibName33=lib/nrc2016
-LibName34=lib/atf16v8cv
-LibName35=lib/62256
-LibName36=lib/mcp2221a
+LibName31=nrc2016
+LibName32=62256
+LibName33=atf16v8cv
+LibName34=6850
