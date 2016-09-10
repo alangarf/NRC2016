@@ -1,4 +1,4 @@
-update=Saturday, 10 September 2016 'pmt' 02:43:11 pm
+update=Saturday, 10 September 2016 'pmt' 08:48:53 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,8 +33,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../lib
@@ -71,3 +69,5 @@ LibName29=valves
 LibName30=Zilog
 LibName31=nrc2016
 LibName32=atf16v8cv
+[general]
+version=1
