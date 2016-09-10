@@ -1,4 +1,4 @@
-update=Saturday, 10 September 2016 'pmt' 02:41:32 pm
+update=Saturday, 10 September 2016 'pmt' 02:43:11 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,6 +70,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=Zilog
 LibName31=nrc2016
-LibName32=62256
-LibName33=atf16v8cv
-LibName34=6850
+LibName32=atf16v8cv
