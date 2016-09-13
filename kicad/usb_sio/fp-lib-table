@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name nrc2016)(type KiCad)(uri /Users/alan/projects/kicad/nrc2016/kicad/nrc2016.pretty)(options "")(descr ""))
+  (lib (name nrc2016_logo)(type KiCad)(uri /Users/alan/projects/kicad/nrc2016/kicad/nrc2016_logo)(options "")(descr ""))
 )
