@@ -1,0 +1,57 @@
+Name            DECODER;
+Partno          ATF16V8B;
+Revision        01;
+Date            13-9-2016;
+Designer        Niels Moseley;
+Company         Moseley Instruments;
+Assembly        NRC2016 IO decoder;
+Location        Unknown;
+Device          g16v8a;
+
+/********************************************************************************/
+/* This device partially decodes the I/O address for the NRC2016        	*/
+/* computer                                                             	*/
+/* 										*/
+/* use Consolas font for proper formatting 					*/
+/* computer                                                             	*/
+/********************************************************************************/
+
+/* input signals */
+
+/* pin 1      = clk ; */				/* oscillator clock            	*/
+pin [2..7] = [a7..a2];
+pin 8      = !m1 ;                        	/* /M1 signal from z80         	*/
+pin 9      = !iorq ;				/* /IORQ signal from z80       	*/
+pin 11     = !oe;
+
+/* outputs (available: 12..19) 
+   Note: negative outputs don't work
+   as reported here: 
+   http://ecee.colorado.edu/~mcclurel/WinCUPL_Intro_handouts2.pdf
+   so we define them as active high
+   but code them as active low!
+*/
+
+pin 19     = iosel0 ;
+pin 18     = iosel1 ;
+pin 17     = iosel2 ;
+pin 16     = iosel3 ;
+
+
+/* leave S1..S4 floating, for now */
+
+pin 15     = S1 ;
+pin 14     = S2 ;
+pin 13     = S3 ;
+pin 12     = S4 ;
+
+/** declarations **/
+
+field addr = [a7..a2] ;
+
+/** equations **/
+iosel0 = !(addr:'B'100000XX & iorq);
+iosel1 = !(addr:'B'100100XX & iorq);
+iosel2 = !(addr:'B'101000XX & iorq);
+iosel3 = !(addr:'B'101100XX & iorq);
+

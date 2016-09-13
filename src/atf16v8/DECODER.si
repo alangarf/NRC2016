@@ -1,0 +1,30 @@
+Name     DECODER;
+PartNo   ATF16V8B;
+Date     13-9-2016;
+Revision 01;
+Designer Niels Moseley;
+Company  Moseley Instruments;
+Assembly NRC2016 IO decoder;
+Location Unknown;
+Device   g16v8a;
+
+
+ORDER: a7, a6, a5, a4, a3, a2, !iorq, !oe, %2, iosel0, iosel1, iosel2, iosel3; 
+
+
+VECTORS:
+$MSG  "ARSE!";
+00000010HHHH
+00000000HHHH
+10000000LHHH
+10000100HHHH
+10010000HLHH
+10010100HHHH
+10100000HHLH
+10100100HHHH
+10110000HHHL
+10110100HHHH
+10110001HHHL
+10110101HHHH
+10110011HHHH
+10110111HHHH
