@@ -1,4 +1,4 @@
-update=Wednesday, 14 September 2016 'pmt' 10:35:22 pm
+update=Saturday, 17 September 2016 'pmt' 08:22:53 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../lib
@@ -57,6 +55,6 @@ LibName25=opto
 LibName26=atmel
 LibName27=contrib
 LibName28=valves
-LibName29=62256
-LibName30=nrc2016
-LibName31=6850
+LibName29=nrc2016
+[general]
+version=1

@@ -1,4 +1,4 @@
-(module Pin_Header_Angled_1x10_nrc2016 (layer F.Cu) (tedit 57D7DD9D)
+(module Pin_Header_Angled_1x10_nrc2016 (layer F.Cu) (tedit 57DB9933)
   (descr "Through hole pin header")
   (tags "pin header")
   (fp_text reference P2 (at 3.81 -5.1) (layer F.SilkS) hide
@@ -11,7 +11,7 @@
   (fp_line (start 2.286 -1.778) (end 2.286 24.638) (layer F.CrtYd) (width 0.05))
   (fp_line (start 5.334 -1.778) (end 2.286 -1.778) (layer F.CrtYd) (width 0.05))
   (fp_line (start 5.334 24.638) (end 2.286 24.638) (layer F.CrtYd) (width 0.05))
-  (pad 1 thru_hole rect (at 3.81 0 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole oval (at 3.81 0 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole oval (at 3.81 2.54 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole oval (at 3.81 5.08 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 4 thru_hole oval (at 3.81 7.62 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
